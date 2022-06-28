@@ -83,6 +83,10 @@ main h1{
     main h1{
         font-size: 1.3em;
     }
+    .logo img{
+        max-width: 8vw;
+        max-height: 8vw;
+    }
 }
 a{ /* idk wtf i did to anker tags but this fixes them */
     color: white;
