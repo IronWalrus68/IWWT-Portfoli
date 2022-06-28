@@ -23,6 +23,7 @@ header{
     display: flex;
     width: 99vw;
     justify-content: space-around;
+    align-items: center;
 }
 header h2{
     font-weight: bold;
@@ -38,6 +39,11 @@ header li:hover{
     color: grey;
     cursor: pointer;
 }
+.logo img{
+    max-width: 2vw;
+    max-height: 2vw;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 main{
     display: flex;
