@@ -9,7 +9,15 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#0c0514, #742AD5);
+    background: #ddd;
+    background-image: linear-gradient(45deg, #0c0514, #481c81, #7627dd);
+    background-size: 100% 300%;
+    animation: bg-animation 5s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: top;}
+    100% {background-position: bottom;}
 }
 header{
     display: flex;
