@@ -36,7 +36,6 @@ header li{
     font-size: 1.4em;
 }
 header li:hover{
-    color: grey;
     cursor: pointer;
 }
 .logo img{
@@ -76,4 +75,18 @@ main{
 p{
     padding-top: 5vh;
 
+}
+main h1{
+    font-size: 3em;
+}
+@media (max-width: 414px){
+    main h1{
+        font-size: 1.3em;
+    }
+}
+a{ /* idk wtf i did to anker tags but this fixes them */
+    color: white;
+}
+.links{
+    padding: 0 1em 0 1em;
 }
