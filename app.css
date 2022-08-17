@@ -128,3 +128,9 @@ section {
     /* border: 5px solid black; */
     position: absolute;
 }
+
+.blob-motion {
+    padding-left: 3em;
+    max-height: 85vh;
+    max-width: 85vh;
+}
