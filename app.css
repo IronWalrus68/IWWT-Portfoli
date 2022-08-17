@@ -76,8 +76,6 @@ main {
     width: 30vh;
     height: 30vh;
     border-radius: 50%;
-    background-color: white;
-    /* background: linear-gradient(#742AD5, #0c0514); */
     justify-content: center;
     align-items: center;
 }
@@ -114,4 +112,19 @@ a {
 
 .links {
     padding: 0 1em 0 1em;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+    justify-content: center
+}
+
+.blob-content {
+    /* border: 5px solid black; */
+    position: absolute;
 }
