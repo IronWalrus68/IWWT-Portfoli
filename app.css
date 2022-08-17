@@ -1,11 +1,12 @@
-html{
+html {
     padding: 0;
     border: 0;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,38 +14,50 @@ body{
     background-image: linear-gradient(45deg, #0c0514, #481c81, #7627dd);
     background-size: 100% 300%;
     animation: bg-animation 5s infinite alternate;
+    font-weight: 400;
 }
 
 @keyframes bg-animation {
-    0% {background-position: top;}
-    100% {background-position: bottom;}
+    0% {
+        background-position: top;
+    }
+
+    100% {
+        background-position: bottom;
+    }
 }
-header{
+
+header {
     display: flex;
     width: 99vw;
     justify-content: space-around;
     align-items: center;
 }
-header h2{
+
+header h2 {
     font-weight: bold;
     font-size: 2em;
 }
-header li{
+
+header li {
     display: inline;
-    padding-right: 2.5vw;
-    padding-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
     font-size: 1.4em;
 }
-header li:hover{
+
+header li:hover {
     cursor: pointer;
 }
-.logo img{
+
+.logo img {
     max-width: 2vw;
     max-height: 2vw;
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,12 +65,12 @@ main{
     padding-bottom: 30vh;
 }
 
-#hiremebtn{
+#hiremebtn {
     display: flex;
     justify-content: center;
 }
 
-#pfp{
+#pfp {
     display: flex;
     padding: 5px;
     width: 30vh;
@@ -72,25 +85,33 @@ main{
 #pfp img {
     height: 20vh;
 }
-p{
+
+p {
     padding-top: 5vh;
+    font-size: 1.5em;
 
 }
-main h1{
+
+main h1 {
     font-size: 3em;
 }
-@media (max-width: 414px){
-    main h1{
+
+@media (max-width: 414px) {
+    main h1 {
         font-size: 1.3em;
     }
-    .logo img{
+
+    .logo img {
         max-width: 8vw;
         max-height: 8vw;
     }
 }
-a{ /* idk wtf i did to anker tags but this fixes them */
+
+a {
+    /* idk wtf i did to anker tags but this fixes them */
     color: white;
 }
-.links{
+
+.links {
     padding: 0 1em 0 1em;
 }
