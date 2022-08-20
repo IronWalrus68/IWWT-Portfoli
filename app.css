@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #ddd;
-    background-image: linear-gradient(45deg, #0c0514, #481c81, #7627dd);
+    background-image: linear-gradient(45deg, #14036a, #545151, #6d6c6c);
     background-size: 100% 300%;
     animation: bg-animation 5s infinite alternate;
     font-weight: 400;
@@ -129,6 +129,7 @@ section {
 }
 
 .blob-motion {
+    color: black;
     margin-top: 5em;
     margin-left: 5em;
 }
